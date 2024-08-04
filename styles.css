@@ -4,11 +4,17 @@
 }
 
 body {
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
+  min-height: 100vh;
+  background: #136a8a;
+  background: -webkit-linear-gradient(
+    to top,
+    #267871,
+    #136a8a
+  );
+  background: linear-gradient(
+    to top,
+    #267871,
+    #136a8a
   );
 }
 
@@ -64,8 +70,13 @@ body {
   padding: 10px;
 }
 
-.choices:hover {
-  background-color: rgba(148, 187, 233, 1);
+.choices:hover{
+  background-color: black;
+  transition: 0.7s;
+}
+
+.choices:hover .pics{
+  filter: invert(70%);
   transition: 0.7s;
 }
 
