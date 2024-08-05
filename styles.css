@@ -86,6 +86,8 @@ body {
   gap: 200px;
   align-items: center;
   justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
 }
 
 .player {
@@ -96,11 +98,5 @@ body {
 }
 
 .score {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
-}
-
-.name {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 50px;
 }
